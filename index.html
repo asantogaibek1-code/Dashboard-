@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0f1a" />
+    <title>Свод мероприятий — KMU · KazNMU · AMU · KRMU · MKTU · SMU · ZKMU</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #0a0f1a;
+      }
+      /* Предотвращение мигания при загрузке */
+      html[data-theme="light"] body {
+        background-color: #f8fafc;
+      }
+    </style>
+    <script>
+      // Установка темы до загрузки React для предотвращения мигания
+      (function() {
+        const theme = localStorage.getItem('panda_theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-D0w4x_Wc.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-aw0sU3UP.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
